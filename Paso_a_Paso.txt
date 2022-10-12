@@ -1,0 +1,13 @@
+01 - Posicionarse en la carpeta del proyecto
+02 - Crear entorno virtual python -m venv nombr del entorno
+03 - Crear el archivo .gitignore y en el agregar __pycache__ , el entorno virtual, el db.sqlite y otros que no quiero que se sigan
+04 - Conectar con el repositorio en la nube.
+04.1 - Crear repositorio en la nube
+04.11 github.com en el browser
+04.12 crear cuenta - Dar usuario, mail, clave
+04.13 Crear repositorio con el botón + de la esquina superior derecha
+04.14 Nombre del repositorio - descripción - dejar todo por defecto - Botón crear
+04.2 - Conectar mi proyecto con el repositorio en la nube. 
+04.21 - Hay que tener algo comiteado en git.
+04.22 - Iniciar git : git init (aparece en el path (master))
+04.23 - Pasar al stage git add . / Comitear git commit -m "descripción"
