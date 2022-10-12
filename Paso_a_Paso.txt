@@ -13,13 +13,16 @@
    04.23 - Pasar al stage git add . / Comitear git commit -m "descripción"
    Copio la opción 2 del github y ejecuto en la terminal
 05 - Actualizar en la nube : 
-05 - Activar el Entorno Virtual. Ejecutar desde el archivo start.sh --> . start.sh --> aparece el nombre del EV
-06 - Instalar Django pip install Django
-07 - Crear el proyecto sobre Django
-   07.1 - django-admin startproject nombre del proyecto sin blancos, sin -
-   07.2 De la carpeta que creo, saco el archivo manage.py a la altura de la carpeta del proyecto
-   07.3 Renombro la carpeta.
-   07.4 Saco la carpeta interna por fuera.
-   07.5 Elimino la primer carpeta.
-08 - Los requerimientos del proyecto estám en el entorno virtual. pip freeze > requerimientos.txt
-
+   05.1 - La primera vez que conecto, sube lo que tengo comiteado.
+   05.2 - git push
+06 - Activar el Entorno Virtual. Ejecutar desde el archivo start.sh --> . start.sh --> aparece el nombre del EV
+07 - Instalar Django pip install Django
+08 - Crear el proyecto sobre Django
+   08.1 - django-admin startproject nombre del proyecto sin blancos, sin -
+   08.2 De la carpeta que creo, saco el archivo manage.py a la altura de la carpeta del proyecto
+   08.3 Renombro la carpeta.
+   08.4 Saco la carpeta interna por fuera.
+   08.5 Elimino la primer carpeta.
+09 - Los requerimientos del proyecto estám en el entorno virtual. pip freeze > requerimientos.txt
+10 - Pruebo el proyecto de django python manage.py runserver si sale error en rosa,
+salgo del server y ejecuto python manage.py migrate y luego ejecuto el runserver y me abre la página en el browser
