@@ -1,6 +1,6 @@
 01 - Posicionarse en la carpeta del proyecto
 02 - Crear entorno virtual python -m venv nombr del entorno
-03 - Crear el archivo .gitignore y en el agregar __pycache__ , el entorno virtual, el db.sqlite y otros que no quiero que se sigan
+03 - Crear el archivo .gitignore y en el agregar __pycache__ , el entorno virtual, el db.sqlite3 y otros que no quiero que se sigan
 04 - Conectar con el repositorio en la nube.
  04.1 - Crear repositorio en la nube
    04.11 github.com en el browser
@@ -12,4 +12,14 @@
    04.22 - Iniciar git : git init (aparece en el path (master))
    04.23 - Pasar al stage git add . / Comitear git commit -m "descripción"
    Copio la opción 2 del github y ejecuto en la terminal
-05 - Activar el Entorno Virtual. Ejecutar desde el archivo start.sh
+05 - Actualizar en la nube : 
+05 - Activar el Entorno Virtual. Ejecutar desde el archivo start.sh --> . start.sh --> aparece el nombre del EV
+06 - Instalar Django pip install Django
+07 - Crear el proyecto sobre Django
+   07.1 - django-admin startproject nombre del proyecto sin blancos, sin -
+   07.2 De la carpeta que creo, saco el archivo manage.py a la altura de la carpeta del proyecto
+   07.3 Renombro la carpeta.
+   07.4 Saco la carpeta interna por fuera.
+   07.5 Elimino la primer carpeta.
+08 - Los requerimientos del proyecto estám en el entorno virtual. pip freeze > requerimientos.txt
+
